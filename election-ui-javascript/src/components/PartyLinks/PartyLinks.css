@@ -1,3 +1,25 @@
 .Party-links {
-  color: red;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 1rem;
+}
+
+.Party-links .Party-link {
+  padding: 1rem;
+  border: 3px solid #bb1919;
+  margin: 1rem;
+  width: 25%;
+  transition: all 0.2s ease-in-out;
+  list-style: none;
+  cursor: pointer;
+}
+
+.Party-link a{
+  color: black;
+}
+
+.Party-link:hover{
+  transform: scale(1.1);
 }
