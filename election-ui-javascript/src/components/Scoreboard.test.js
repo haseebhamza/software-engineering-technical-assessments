@@ -12,7 +12,11 @@ test('renders Results', async () => {
         {
           'party': 'Giraffe Party',
           'candidateId': 2,
-          'votes': '9900'
+          'votes': '9900',
+          'candidate': {
+            'name': 'John Doe',
+            'id': 2,
+          }
         }
       ]
     })
@@ -47,7 +51,11 @@ test('fetches results again when refresh button clicked', async () => {
         {
           'party': 'Giraffe Party',
           'candidateId': 2,
-          'votes': '9900'
+          'votes': '9900',
+          "candidate": {
+            "name": "John Doe",
+            "id": 2
+          }
         }
       ]
     })
@@ -60,7 +68,11 @@ test('fetches results again when refresh button clicked', async () => {
         {
           'party': 'Giraffe Party',
           'candidateId': 2,
-          'votes': '12345'
+          'votes': '12345',
+          "candidate": {
+            "name": "John Doe",
+            "id": 2
+          }
         }
       ]
     })

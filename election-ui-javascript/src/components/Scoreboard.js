@@ -14,6 +14,7 @@ function Scoreboard() {
     try {
       setLoading(true);
       const resultData = await fetchData();
+      console.log(resultData)
       setResults(resultData.results);
       setLoading(false);
     } catch (e) {

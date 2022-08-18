@@ -5,7 +5,11 @@ const results = [
   {
     'party': 'Green',
     'candidateId': 2,
-    'votes': '1056'
+    'votes': '1056',
+    'candidate': {
+      'name': 'John Smith',
+      'id': 2,
+    }
   }
 ];
 
